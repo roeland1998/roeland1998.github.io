@@ -1,0 +1,214 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: inherit;
+  transition:
+    all 0.3s ease,
+    filter 0.3s ease;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  color: inherit;
+  padding: 12px 20px;
+  border-radius: 15px;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  margin: 5px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+}
+
+#timer {
+  font-size: 25vw;
+  cursor: pointer;
+  user-select: none;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+#status {
+  font-size: 3vw;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+}
+
+body.theme-1 {
+  background-color: #161616;
+  color: #f2dc8f;
+  font-family: "Space Mono", monospace;
+}
+
+body.theme-1.pause-mode {
+  background-color: #f2dc8f;
+  color: #161616;
+  font-family: "Space Mono", monospace;
+}
+
+body.theme-2 {
+  background-color: #ef4b39;
+  color: #fcf2ec;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+
+body.theme-2.pause-mode {
+  color: #ef4b39;
+  background-color: #fcf2ec;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+
+body.theme-3 {
+  background-color: #112dc7;
+  color: #c7eaed;
+  font-family: "Righteous", cursive;
+}
+
+body.theme-3.pause-mode {
+  color: #112dc7;
+  background-color: #c7eaed;
+  font-family: "Righteous", cursive;
+}
+
+body.theme-4 {
+  background-color: #fe657e;
+  color: #f8f5a6;
+  font-family: "Bebas Neue";
+}
+
+body.theme-4.pause-mode {
+  color: #fe657e;
+  background-color: #f8f5a6;
+  font-family: "Bebas Neue";
+}
+
+body.theme-5 {
+  background-color: #190e70;
+  color: #e07df9;
+  font-family: "Righteous", cursive;
+}
+
+body.theme-5.pause-color {
+  color: #190e70;
+  background-color: #e07df9;
+  font-family: "Righteous", cursive;
+}
+
+body.theme-6 {
+  background-color: #77ac0c;
+  color: #f4f4c1;
+  font-family: "Abril Fatface";
+}
+
+body.theme-6.pause-mode {
+  color: #77ac0c;
+  background-color: #f4f4c1;
+  font-family: "Abril Fatface";
+}
+
+body.theme-7 {
+  background-color: #ffc2f9;
+  color: #a33b3b;
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+}
+
+body.theme-7.pause-mode {
+  color: #ffc2f9;
+  background-color: #a33b3b;
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+}
+
+body.theme-8 {
+  background-color: #235c35;
+  color: #ecc1f8;
+  font-family: "Righteous", cursive;
+}
+
+body.theme-8.pause-mode {
+  color: #235c35;
+  background-color: #ecc1f8;
+  font-family: "Righteous", cursive;
+}
+
+body.theme-9 {
+  background-color: #fb07aa;
+  color: #f5d51e;
+  font-family: "Abril Fatface";
+}
+
+body.theme-9.pause-mode {
+  color: #fb07aa;
+  background-color: #f5d51e;
+  font-family: "Abril Fatface";
+}
+
+body.theme-10 {
+  background-color: #e7fbc5;
+  color: #47d95c;
+  font-family: "Josefin Sans";
+  font-weight: 900;
+}
+
+body.theme-10.pause-mode {
+  color: #e7fbc5;
+  background-color: #47d95c;
+  font-family: "Josefin Sans";
+  font-weight: 900;
+}
+
+body.theme-11 {
+  background-color: #5b58dd;
+  color: #e4e295;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+
+body.theme-11.pause-mode {
+  color: #5b58dd;
+  background-color: #e4e295;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+
+body.theme-12 {
+  background-color: #fac6d4;
+  color: #893336;
+  font-family: "Righteous", cursive;
+}
+
+body.theme-12.pause-mode {
+  color: #fac6d4;
+  background-color: #893336;
+  font-family: "Righteous", cursive;
+}
