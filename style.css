@@ -64,26 +64,26 @@ button:hover {
 body.theme-1 {
   background-color: #161616;
   color: #f2dc8f;
-  font-family: "Space Mono", monospace;
+  font-family: "Righteous", cursive;
 }
 
 body.theme-1.pause-mode {
   background-color: #f2dc8f;
   color: #161616;
-  font-family: "Space Mono", monospace;
+  font-family: "Righteous", cursive;
 }
 
 body.theme-2 {
   background-color: #ef4b39;
   color: #fcf2ec;
-  font-family: "Inter", sans-serif;
+  font-family: "Righteous", cursive;
   font-weight: 900;
 }
 
 body.theme-2.pause-mode {
   color: #ef4b39;
   background-color: #fcf2ec;
-  font-family: "Inter", sans-serif;
+  font-family: "Righteous", cursive;
   font-weight: 900;
 }
 
@@ -102,13 +102,13 @@ body.theme-3.pause-mode {
 body.theme-4 {
   background-color: #fe657e;
   color: #f8f5a6;
-  font-family: "Bebas Neue";
+  font-family: "Righteous", cursive;
 }
 
 body.theme-4.pause-mode {
   color: #fe657e;
   background-color: #f8f5a6;
-  font-family: "Bebas Neue";
+  font-family: "Righteous", cursive;
 }
 
 body.theme-5 {
@@ -126,26 +126,26 @@ body.theme-5.pause-mode {
 body.theme-6 {
   background-color: #77ac0c;
   color: #f4f4c1;
-  font-family: "Abril Fatface";
+  font-family: "Righteous", cursive;
 }
 
 body.theme-6.pause-mode {
   color: #77ac0c;
   background-color: #f4f4c1;
-  font-family: "Abril Fatface";
+  font-family: "Righteous", cursive;
 }
 
 body.theme-7 {
   background-color: #ffc2f9;
   color: #a33b3b;
-  font-family: "Space Mono", monospace;
+  font-family: "Righteous", cursive;
   font-weight: 900;
 }
 
 body.theme-7.pause-mode {
   color: #ffc2f9;
   background-color: #a33b3b;
-  font-family: "Space Mono", monospace;
+  font-family: "Righteous", cursive;
   font-weight: 900;
 }
 
@@ -164,40 +164,40 @@ body.theme-8.pause-mode {
 body.theme-9 {
   background-color: #fb07aa;
   color: #f5d51e;
-  font-family: "Abril Fatface";
+  font-family: "Righteous", cursive;
 }
 
 body.theme-9.pause-mode {
   color: #fb07aa;
   background-color: #f5d51e;
-  font-family: "Abril Fatface";
+  font-family: "Righteous", cursive;
 }
 
 body.theme-10 {
   background-color: #e7fbc5;
   color: #47d95c;
-  font-family: "Josefin Sans";
+  font-family: "Righteous", cursive;
   font-weight: 900;
 }
 
 body.theme-10.pause-mode {
   color: #e7fbc5;
   background-color: #47d95c;
-  font-family: "Josefin Sans";
+  font-family: "Righteous", cursive;
   font-weight: 900;
 }
 
 body.theme-11 {
   background-color: #5b58dd;
   color: #e4e295;
-  font-family: "Oswald", sans-serif;
+  font-family: "Righteous", cursive;
   font-weight: 900;
 }
 
 body.theme-11.pause-mode {
   color: #5b58dd;
   background-color: #e4e295;
-  font-family: "Oswald", sans-serif;
+  font-family: "Righteous", cursive;
   font-weight: 900;
 }
 
