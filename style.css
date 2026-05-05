@@ -77,14 +77,12 @@ body.theme-2 {
   background-color: #ef4b39;
   color: #fcf2ec;
   font-family: "Righteous", cursive;
-  font-weight: 900;
 }
 
 body.theme-2.pause-mode {
   color: #ef4b39;
   background-color: #fcf2ec;
   font-family: "Righteous", cursive;
-  font-weight: 900;
 }
 
 body.theme-3 {
@@ -139,14 +137,12 @@ body.theme-7 {
   background-color: #ffc2f9;
   color: #a33b3b;
   font-family: "Righteous", cursive;
-  font-weight: 900;
 }
 
 body.theme-7.pause-mode {
   color: #ffc2f9;
   background-color: #a33b3b;
   font-family: "Righteous", cursive;
-  font-weight: 900;
 }
 
 body.theme-8 {
@@ -177,28 +173,24 @@ body.theme-10 {
   background-color: #e7fbc5;
   color: #47d95c;
   font-family: "Righteous", cursive;
-  font-weight: 900;
 }
 
 body.theme-10.pause-mode {
   color: #e7fbc5;
   background-color: #47d95c;
   font-family: "Righteous", cursive;
-  font-weight: 900;
 }
 
 body.theme-11 {
   background-color: #5b58dd;
   color: #e4e295;
   font-family: "Righteous", cursive;
-  font-weight: 900;
 }
 
 body.theme-11.pause-mode {
   color: #5b58dd;
   background-color: #e4e295;
   font-family: "Righteous", cursive;
-  font-weight: 900;
 }
 
 body.theme-12 {
