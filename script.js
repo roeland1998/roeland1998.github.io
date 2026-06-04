@@ -1,5 +1,5 @@
 // 1. DE VARIABELEN (De opslagbakjes)
-let timeLeft = 25 * 60; // De tijd in seconden
+let timeLeft = 45 * 60; // De tijd in seconden
 let timerId = null; // De ID van de lopende timer
 let isFocusMode = true; // Zitten we in Focus of Relax?
 let currentTheme = localStorage.getItem("selectedTheme") || "theme-1"; // Onthoud thema
@@ -42,10 +42,10 @@ function switchMode() {
   const statusElement = document.getElementById("status");
 
   if (isFocusMode) {
-    timeLeft = 25 * 60;
+    timeLeft = 45 * 60;
     statusElement.textContent = "Focus";
   } else {
-    timeLeft = 5 * 60;
+    timeLeft = 15 * 60;
     statusElement.textContent = "Relax";
   }
 
